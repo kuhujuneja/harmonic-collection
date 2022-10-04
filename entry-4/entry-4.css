@@ -1,6 +1,7 @@
 body {
     background-image: url("paper\ copy.jpg");
-    
+    @media(max-width:300 px),
+(min-width:500 px)
    }
 
   
@@ -41,6 +42,7 @@ font-size: 30px;
     margin-right: 20px;
     width: 600px;
     opacity:50%;
+    
   }
 
   div:nth-child(1) {
@@ -66,3 +68,4 @@ a:link {
   
     a:link {text-decoration: none;
 }
+
