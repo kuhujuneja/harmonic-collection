@@ -44,6 +44,8 @@ font-size: 30px;
     opacity:50%;
     
   }
+  
+  
 
   div:nth-child(1) {
     background-color: rgb(164, 163, 163);
@@ -52,6 +54,12 @@ font-size: 30px;
 	width:100%;	
   opacity:70%;
   padding: 0px;
+}
+@media print {
+  body {
+    font-size: 14pt;
+    color: black;
+  }
 }
 
 a:link {
@@ -68,4 +76,3 @@ a:link {
   
     a:link {text-decoration: none;
 }
-
