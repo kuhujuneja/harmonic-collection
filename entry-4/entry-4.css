@@ -1,11 +1,9 @@
 body {
     background-image: url("paper\ copy.jpg");
+    
    }
 
-   .P1{font-family: forma-djr-display, sans-serif;
-   font-weight: 400;
-    font-style: normal;
-    }
+   p {padding: 10px;}
 
    h1 {
     text-align: center;
@@ -26,12 +24,9 @@ body {
 font-family: verveine, sans-serif;
 font-weight: 200;
 font-style: normal;
-font-size: 50px;
+font-size: 50px;;
 }
 
-.menu {font-size:50px;}
-
-.list {font-size:70 px;}
 
 .center {
     display: block;
@@ -39,11 +34,12 @@ font-size: 50px;
     margin-right: auto;
   }
 
+
   aside {
     background-color: rgb(164, 163, 163);
     float: right;
-    margin-right: 30px;
-    padding: 10px;
+    margin-right: 20px;
+    padding: 5px;
     width: 600px;
     opacity:50%;
   }
@@ -54,7 +50,9 @@ font-size: 50px;
 	top:10px;
 	width:100%;	
   opacity:70%;
+  padding: 0px;
 }
+div:not(:nth-child) { padding: 20px; }
 
 a:link {
     color: rgb(58, 57, 57);
