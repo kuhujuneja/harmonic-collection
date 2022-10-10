@@ -1,7 +1,10 @@
 body {
     background-image: url("paper\ copy.jpg");
-    @media(max-width:300 px),
-(min-width:500 px)
+    font-family: verveine, sans-serif;
+    font-weight: 200;
+   font-style: normal;
+   font-size: 30px;
+   max-width: 100vw;
    }
 
   
@@ -21,12 +24,6 @@ h2 {
     font-size: 120px;
 }
 
-body {
-font-family: verveine, sans-serif;
-font-weight: 200;
-font-style: normal;
-font-size: 30px;
-}
 
 
 .center {
@@ -35,19 +32,20 @@ font-size: 30px;
     margin-right: auto;
   }
 
-
-  aside {
+#flexbox {display: flex;}
+  aside { height:fit-content;
     background-color: rgb(164, 163, 163);
-    float: right;
-    margin-right: 20px;
-    width: 600px;
+    /* float: right;
+    margin-right: 20px; */
+    width: 70vw;
     opacity:50%;
-    
   }
   
-  
+  .list {width: 30vw}
+  .list img{width: 30vw;
+            height: 30vw;}
 
-  div:nth-child(1) {
+  .menu {
     background-color: rgb(164, 163, 163);
 	position: sticky;
 	top:10px;
@@ -55,12 +53,7 @@ font-size: 30px;
   opacity:70%;
   padding: 0px;
 }
-@media print {
-  body {
-    font-size: 14pt;
-    color: black;
-  }
-}
+
 
 a:link {
     color: rgb(58, 57, 57);
@@ -76,3 +69,14 @@ a:link {
   
     a:link {text-decoration: none;
 }
+
+@media(max-width:400px){
+  #flexbox {display: block;}
+  aside{ width: 100vw;
+
+    /* float: left;
+    margin-left: 20px; */
+  }
+  
+}
+/* (min-width:500 px) */

@@ -1,12 +1,17 @@
 body {
-    background-image: url("paper.jpg");
+    background-image: url("paper\ copy.jpg");
+    @media(max-width:300 px),
+(min-width:500 px)
    }
+
+  
+
    h1 {
     text-align: center;
     font-family: hey-eloise, sans-serif;
     font-weight: 400;
     font-style:normal;
-    font-size: 150px;
+    font-size: 180px;
 }
 h2 {
     text-align: center;
@@ -18,14 +23,56 @@ h2 {
 
 body {
 font-family: verveine, sans-serif;
-font-weight: 300;
+font-weight: 200;
 font-style: normal;
 font-size: 30px;
-padding-left: 20px;
 }
+
+
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* width: 50%; */
   }
+
+
+  aside {
+    background-color: rgb(164, 163, 163);
+    float: right;
+    margin-right: 20px;
+    width: 600px;
+    opacity:50%;
+    
+  }
+  
+  
+
+  div:nth-child(1) {
+    background-color: rgb(164, 163, 163);
+	position: sticky;
+	top:10px;
+	width:100%;	
+  opacity:70%;
+  padding: 0px;
+}
+@media print {
+  body {
+    font-size: 14pt;
+    color: black;
+  }
+}
+
+a:link {
+    color: rgb(58, 57, 57);
+  }
+  
+  a:visited {
+    color: rgb(98, 98, 98);
+  }
+  
+  a:hover {
+    color: rgb(213, 167, 190);
+  }
+  
+    a:link {text-decoration: none;
+}
