@@ -73,11 +73,9 @@ a:link {
 @media(max-width:400px){
   #flexbox {display: block;}
   aside{ width: 100vw;
-
-    /* float: left;
-    margin-left: 20px; */
   }
-  
 }
-/* (min-width:500 px) */
+
+
+
 
