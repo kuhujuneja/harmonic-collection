@@ -32,26 +32,18 @@ h2 {
     margin-right: auto;
   }
 
-#flexbox {display: flex;}
-  aside { height:fit-content;
-    background-color: rgb(164, 163, 163);
-    /* float: right;
-    margin-right: 20px; */
-    width: 70vw;
-    opacity:50%;
-  }
+
   
-  .list {width: 30vw}
+  .list {width: 100vw}
   .list img{width: 25vw;
             height: 25vw;}
 
   .menu {
     background-color: rgb(164, 163, 163);
-	position: sticky;
-	top:10px;
-	width:100%;	
+	  position:sticky;
+	  width:100%;	
   opacity:70%;
-  padding: 0px;
+  
 }
 
 
@@ -70,12 +62,17 @@ a:link {
     a:link {text-decoration: none;
 }
 
-@media(max-width:400px){
-  #flexbox {display: block;}
+/* @media(max-width:400px){
+
   aside{ width: 100vw;
   }
-}
+} */
 
+section {
+	    display: grid;
+      
+	  grid-template-columns: 1fr 2fr;
+     }
 
-
-
+    
+    
