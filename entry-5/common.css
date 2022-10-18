@@ -4,8 +4,8 @@ body {
     font-weight: 200;
     font-style: normal;
     font-size: 40px;
-    padding: None;
-    margin: None;
+    padding: 0;
+    margin: 0;
 }
 h1{
     text-align: center;

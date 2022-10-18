@@ -44,15 +44,21 @@ font-size: 50px;
    width: 98vw;
    display: grid;
    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-   grid-template-rows:min-content;
+   grid-template-rows:1fr 1fr 1fr;
    gap: 5vw;
+   justify-items: center;
 }
 
 .grid-item{
   width: 20vw;
   text-align: center;
-  
+  font-size: 40px;
 }
 
 img{max-width: 130%;}
 
+@media only screen and (max-width:700px)
+{.grid-item{
+  width: 35vw;
+  font-size: 80px;
+}}
