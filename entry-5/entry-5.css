@@ -14,6 +14,7 @@ h1{
     font-style:normal;
     font-size: 170px;
     margin-top: 10vw;
+    color: darkred;
 }
 
 h2{text-align: center;
@@ -52,16 +53,23 @@ ul li {
     margin-right: auto;
 }
 
-.stuff {
+
+section{
     display: flex;
-    margin: 0 auto;
+    flex-direction: row;
+    height: 100vw;
+    width: 100vw;
+    justify-content: space-around;
+    max-height:30vw;
     
 }
 
-.icons {
-    padding-right:200px;
-    width: 50%;
-}
+ .ingredientitems{
+    width: 20vw;
+    text-align: center;
+ }
+
+ img{max-width: 100%;}
 
 .info {
     font-size: 40px;
