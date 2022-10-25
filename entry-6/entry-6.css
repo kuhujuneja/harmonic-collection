@@ -8,12 +8,15 @@ body {
     font-style: normal;
     font-size: 200px;
     text-align: center;
+    color:rgb(191, 83, 237)
     } 
 
 p{font-family: elza-text, sans-serif;
   font-weight: 400;
   font-style: normal; 
- font-size: 20px;}
+ font-size: 20px;
+text-align: center;
+ color:  rgb(191, 83, 237);}
   
   /* header{
       font-family: elza-text, sans-serif;
@@ -43,10 +46,12 @@ p{font-family: elza-text, sans-serif;
 
 img{max-width:100%;}
 
-@keyframes pictures {
-  0%   {left:0px; top:0px;}
-  25%  {left:20vw; top:0px;}
-  50%  {left:40vw; top:0px;}
-  75%  {left:60vw; top:0px;}
-  100% {left:80vw; top:0px;}
-}
+video{max-width: 40vw;
+  max-height: 30vw;}
+
+.container video
+{ display: flex; 
+  align-content: space-between;}
+
+ 
+
