@@ -21,8 +21,9 @@ text-align: center;
 footer{font-family: pedestria-mvb, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 20px;
-  margin-left: 5vw;
+  font-size: 40px;
+  margin-left: 2vw;
+  margin-bottom: 3vw;
   align-content:left;}
 
 .about
@@ -38,7 +39,7 @@ footer{font-family: pedestria-mvb, sans-serif;
 .mypicture
 {width: 20vw;
   overflow: hidden;
- height: 26vw;}
+ height: 25vw;}
 
 img{max-width:100%;}
 
@@ -47,7 +48,22 @@ video{max-width: 40vw;
 
 .video-container
 { display: flex; 
-  justify-content:center}
+  justify-content:center;
+  margin-top: 3vw;}
 
+  a:link {
+    color: rgb(58, 57, 57);
+  }
+  
+  a:visited {
+    color: rgb(191, 83, 237);;
+  }
+  
+  a:hover {
+    color: rgb(213, 167, 190);
+  }
+  
+    a:link {text-decoration: none;
+  }
  
 
