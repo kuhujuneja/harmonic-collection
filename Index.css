@@ -57,6 +57,14 @@ font-size: 50px;
 
 img{max-width: 100%;}
 
+.bubble{
+  position: absolute;
+  background-color:  rgb(224, 224, 66);}
+  /* width: 20vw;
+  height: 20vw;
+  border-radius: 50%;} */
+
+
 @media only screen and (max-width: 700px)
 {
   .grid-item{
@@ -65,3 +73,4 @@ img{max-width: 100%;}
 }
 
 }
+
