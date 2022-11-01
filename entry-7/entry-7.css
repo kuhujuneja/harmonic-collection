@@ -1,0 +1,43 @@
+body {
+    background-color:rgb(198, 96, 242);
+    margin: 0;
+  }
+
+  h1{font-family: pedestria-mvb, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 100px;
+    text-align: center;
+    color:rgb(202, 249, 152);
+    padding-bottom: 2vw;
+    } 
+
+ h2{font-family: pedestria-mvb, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70px;
+    text-align: left;
+    padding-left: 2vw;
+    color:rgb(162, 237, 83)
+    } 
+
+p{font-family: elza-text, sans-serif;
+  font-weight: 400;
+  font-style: normal; 
+ font-size: 30px;
+ text-align: left;
+ color:  rgb(224, 224, 66);
+ padding-left: 5vw;
+ padding-bottom: 2vw;
+padding-top: 1vw;}
+  
+.last{font-style:italic;
+      padding-top: 2vw;}
+
+footer{font-family: pedestria-mvb, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  margin-left: 2vw;
+  margin-bottom: 3vw;
+  align-content:left;}
