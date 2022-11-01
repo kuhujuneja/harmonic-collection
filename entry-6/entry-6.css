@@ -16,7 +16,7 @@ p{font-family: elza-text, sans-serif;
   font-style: normal; 
  font-size: 20px;
 text-align: center;
- color:  rgb(191, 83, 237);}
+ color:rgb(191, 83, 237);}
   
 footer{font-family: pedestria-mvb, sans-serif;
   font-weight: 700;
@@ -24,7 +24,8 @@ footer{font-family: pedestria-mvb, sans-serif;
   font-size: 40px;
   margin-left: 2vw;
   margin-bottom: 3vw;
-  align-content:left;}
+  align-content:left;
+  color:rgb(191, 83, 237);}
 
 .about
  {display: flex;
