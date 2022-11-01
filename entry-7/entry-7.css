@@ -38,6 +38,7 @@ footer{font-family: pedestria-mvb, sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 40px;
+  color:rgb(202, 249, 152) ;
   margin-left: 2vw;
   margin-bottom: 3vw;
   align-content:left;}
@@ -46,6 +47,7 @@ footer{font-family: pedestria-mvb, sans-serif;
 @media only screen and (max-width: 700px)
 {h1{font-size: 80px;}
 h2{font-size: 50px;}
-p{font-size: 20px;}
+p{font-size: 20px;
+  padding-top: 2vw;}
 .last{padding-top: 3vw;}
 br {display: none;}}
