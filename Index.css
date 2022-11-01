@@ -2,13 +2,39 @@ body {
     background-color:black;
    }
    h1 {
-    text-align: center;
-    font-family: hey-eloise, sans-serif;
-    font-weight: 400;
+    font-family: pedestria-mvb, sans-serif;
+    font-style: normal;
+    font-size: 200px;
     font-style:normal;
-    font-size: 300px;
     color: white;
+    text-align: center;
+    padding-bottom: 5vw;
   }
+
+  .about{font-family: pedestria-mvb, sans-serif;
+    font-style: normal;
+    font-size: 150px;
+    text-align: center;
+    color: rgb(191, 83, 237);
+   background-color: rgb(224, 224, 66);
+   border-radius: 20vw;}
+  /* a:link {
+    color: rgb(58, 57, 57);
+  }
+  a:visited {
+    color: rgb(98, 98, 98);
+  }
+  a:hover {
+    color: rgb(213, 167, 190);
+  } */
+   
+   .prep{font-family: pedestria-mvb, sans-serif;
+    font-style: normal;
+    font-size: 150px;
+    text-align: center;
+    color: rgb(162, 237, 83);
+   background-color: rgb(191, 83, 237);
+   border-radius: 20vw;}
 
   h2 {
     text-align: center;
@@ -28,18 +54,6 @@ font-size: 50px;
 color: white;
 }
 
-
-  a:link {
-    color: rgb(58, 57, 57);
-  }
-  
-  a:visited {
-    color: rgb(98, 98, 98);
-  }
-  
-  a:hover {
-    color: rgb(213, 167, 190);
-  }
   
     a:link {text-decoration: none;
 }
@@ -60,13 +74,6 @@ color: white;
 }
 
 img{max-width: 100%;}
-
-.bubble{
-  position: absolute;
-  background-color:  rgb(224, 224, 66);}
-  /* width: 20vw;
-  height: 20vw;
-  border-radius: 50%;} */
 
 
 @media only screen and (max-width: 700px)
