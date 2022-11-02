@@ -28,15 +28,24 @@ body {
    background-color: rgb(191, 83, 237);
    border-radius: 20vw;}
 
-  h2 {
+   .grocerylist{font-family: pedestria-mvb, sans-serif;
+    font-style: normal;
+    font-size: 150px;
     text-align: center;
-     font-family: hey-eloise, sans-serif;
-    font-weight: 400;
-    font-style:normal;
-    font-size: 200px;
-    padding-bottom: 5vw;
-    color: white;
-}
+    color:rgb(115, 112, 112);
+    background-color: rgb(162, 237, 83);
+   border-radius: 20vw;}
+   
+   .recipes{font-family: pedestria-mvb, sans-serif;
+    font-style: normal;
+    font-size: 150px;
+    text-align: center;
+    color: grey;
+    border-radius: 20vw;}
+
+   .recipebox{background-image: url(paper.jpg);}
+
+ 
 
 body {
 font-family: verveine, sans-serif;
@@ -73,7 +82,5 @@ img{max-width: 100%;}
   .grid-item{
   width: 20vw;
   font-size: 40px;
-}
-
-}
+}}
 
