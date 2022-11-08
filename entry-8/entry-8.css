@@ -39,13 +39,19 @@ body {
   }
 
   @media only screen and (max-width: 700px)
+
   {p{font-size: 20px;
     padding-left: 2vw;}
+
+    h1{font-size: 100px;}
+
+    .square{
+      font-size: 15px;
+      width: 15px;
+      height: 15px;
+    }
+
+    .grid{align-items:baseline;
+      grid-template-columns:3vw 100vw;}
      }
-  .square{
-    font-size: 15px;
-    width: 15px;
-    height: 15px;
-  }
-.grid{align-items:baseline;
-  grid-template-columns:3vw 100vw;}
+  
