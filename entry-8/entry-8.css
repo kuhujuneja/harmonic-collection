@@ -1,7 +1,7 @@
 body {
     background-color:rgb(162, 237, 83);
     margin-right: 2vw;
-    padding-left: 2vw;
+    
   }
 
   h1{font-family: pedestria-mvb, sans-serif;
@@ -11,6 +11,8 @@ body {
     text-align: center;
     color:rgb(115, 112, 112);
     padding-bottom: 2vw;}
+
+    .firstpara{padding-left: 2vw;}
 
   p{font-family: elza-text, sans-serif;
     font-weight: 400;
@@ -37,6 +39,17 @@ body {
     color: darkred;
     transform:scale(135%) ;
   }
+
+  footer{
+    font-family: pedestria-mvb, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    color: rgb(206, 0, 0);
+    padding-top: 2vw;
+    margin-left: 1vw;
+    margin-bottom: 3vw;
+    align-content:left;}
 
   @media only screen and (max-width: 700px)
 
