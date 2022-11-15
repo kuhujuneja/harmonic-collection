@@ -36,16 +36,13 @@ body {
     background-color: rgb(162, 237, 83);
    border-radius: 20vw;}
    
-   .recipes{font-family: pedestria-mvb, sans-serif;
+  .recipes{font-family: pedestria-mvb, sans-serif;
     font-style: normal;
     font-size: 150px;
     text-align: center;
-    color: grey;
-    border-radius: 20vw;}
-
-   .recipebox{background-image: url(paper.jpg);}
-
- 
+    color:red;
+    background-color: gray;
+   border-radius: 20vw;}
 
 body {
 font-family: verveine, sans-serif;
@@ -54,10 +51,9 @@ font-style: normal;
 font-size: 50px;
 color: white;
 }
-
   
-    a:link {text-decoration: none;
-}
+a:link {text-decoration: none;}
+
 .grid-container{
    height: 100vh;
    width: 98vw;
